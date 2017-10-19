@@ -52,14 +52,15 @@
 
 	function myFunction(){
 
-		//var age = 1;   
+		// var age = 1;   
 		var msg;
+		// get the text input value
 		var age = document.getElementById("myInput").value;
 
 		console.log(age);
-
+		// if the input age is greater than 18 and less than 90 exexute message
 		if ((age >= 18) && (age <= 90)) {
-		 	// do this
+		 	// if true execute 
 			msg = 'Congratulations! You can drink';
 			// print message
 			var el = document.getElementById('answer');
